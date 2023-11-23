@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Verdulería Vega's</title>
+</head>
+
+<body>
+  <!--form-->
+  <form action="">
+    <h1 class="title">login</h1>
+    <label for>
+      <i class="fa-solid fa-user"></i>
+      <input placeholder="username" type="text" id="username">
+    </label>
+
+    <label for>
+      <i class="fa-solid fa-lock"></i>
+      <input placeholder="password" type="password" id="password">
+    </label>
+    <a href="index.html" class="link">Forgot your password?</a>
+    <button id="button">login</button>
+  </form>
+  
+
+
+  <!--navbar-->
+  <div class="nav-container">
+    <nav class="navbar">
+      <h1 class="navbar-logo">Verdulería Vega's</h1>
+      <h1 class="ver-carrito" id="verCarrito">
+        🛒<span id="cantidadCarrito" class="cantidad-carrito"></span>
+      </h1>
+    </nav>
+  </div>
+
+  <!--banner-->
+  <div class="banner">
+    <div class="banner-container">
+      <h1>Verdulería Vega's</h1>
+      <p>La mejor de la región</p>
+    </div>
+  </div>
+
+  <!--productos-->
+  <div id="ShopContent" class="shop-content"></div>
+
+  <!--modal container-->
+  <div id="modal-container" class="modal-container"></div>
+
+  <script src="./js/login.js"></script>
+  <script src="./js/script.js"></script>
+  <script src="./js/carrito.js"></script>
+</body>
+
+<footer>
+  <h2>Verdulería Vega's</h2>
+</footer>
+
+</html>
